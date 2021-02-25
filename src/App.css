@@ -1,4 +1,95 @@
-body {
+html body {
   background-color: #1e1f26;
   color: white;
+}
+
+.nav-custom {
+  background-color: #141419;
+}
+
+.nav-item {
+  font-family: Montserrat;
+  font-weight: 300;
+  text-align: center;
+}
+
+.navbar-nav > a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.recipe-panel {
+  height: 90vh;
+  position: relative;
+}
+
+.menu-panel {
+  height: 90vh;
+  overflow-y: auto;
+  display: inline-block;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d0e1f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.screen {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 95%;
+  border-radius: 25px;
+  background: #363943;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.screen-content {
+  margin-top: 100px;
+}
+
+#recipe-img {
+  width: 250px;
+  height: 135px;
+}
+
+#title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+#btn-img {
+  width: 90px;
+  height: 90px;
+}
+
+.item-btn {
+  margin: 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid #d0e1f9;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.75);
+}
+
+.item-btn:hover {
+  transform: scale(1.1);
 }

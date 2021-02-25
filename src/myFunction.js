@@ -1,6 +1,6 @@
 export function getItemSrc(category, item) {
   const newName = item.replace(/ /g, "");
-  const src = "/item/" + category + "/img_" + newName + ".png";
+  const src = "./item/" + category + "/img_" + newName + ".png";
   return src;
 }
 
@@ -12,10 +12,10 @@ export function getItemTitle(item) {
 
 export function getRecipeSrcPNG(category, item) {
   const newName = item.replace(/ /g, "");
-  return "/recipe/" + category + "/craft_" + newName + ".png";
+  return "./recipe/" + category + "/craft_" + newName + ".png";
 }
 
 export function getRecipeSrcGIF(category, item) {
   const newName = item.replace(/ /g, "");
-  return "/recipe/" + category + "/craft_" + newName + ".gif";
+  return "./recipe/" + category + "/craft_" + newName + ".gif";
 }

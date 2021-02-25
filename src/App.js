@@ -8,7 +8,7 @@ function App() {
   const [category, setCategory] = useState("basic");
   const [item, setItem] = useState({
     name: "Planks",
-    recipe: "/recipe/basic/craft_planks.gif",
+    recipe: "recipe/basic/craft_planks.gif",
     error: "",
   });
   return (

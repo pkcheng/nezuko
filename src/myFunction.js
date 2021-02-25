@@ -1,5 +1,5 @@
 export function getItemSrc(category, item) {
-  const newName = item.replace(/ /g, "");
+  const newName = item.replace(/ /g, "").toLowerCase();
   const src = "item/" + category + "/img_" + newName + ".png";
   return src;
 }
@@ -11,11 +11,11 @@ export function getItemTitle(item) {
 }
 
 export function getRecipeSrcPNG(category, item) {
-  const newName = item.replace(/ /g, "");
+  const newName = item.replace(/ /g, "").toLowerCase();
   return "recipe/" + category + "/craft_" + newName + ".png";
 }
 
 export function getRecipeSrcGIF(category, item) {
-  const newName = item.replace(/ /g, "");
+  const newName = item.replace(/ /g, "").toLowerCase();
   return "recipe/" + category + "/craft_" + newName + ".gif";
 }

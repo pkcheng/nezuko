@@ -4,7 +4,7 @@ import {
   getItemTitle,
   getRecipeSrcPNG,
   getRecipeSrcGIF,
-} from "../myFunction";
+} from "../solution";
 
 const MenuPanel = ({ category, changeItem }) => {
   const currentList = itemList[category];

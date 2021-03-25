@@ -13,14 +13,8 @@ html body {
   text-align: center;
 }
 
-.navbar-nav > a {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .recipe-panel {
   height: 90vh;
-  position: relative;
 }
 
 .menu-panel {
@@ -61,8 +55,8 @@ html body {
 }
 
 #recipe-img {
-  width: 250px;
-  height: 135px;
+  width: 65%;
+  border-radius: 5px;
 }
 
 #title {
@@ -76,8 +70,8 @@ html body {
 }
 
 #btn-img {
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
 }
 
 .item-btn {

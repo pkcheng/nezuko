@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./asset/main.css";
 import NavBar from "./component/NavBar";
 import MenuPanel from "./component/MenuPanel";
 import RecipePanel from "./component/RecipePanel";
@@ -11,6 +11,7 @@ function App() {
     recipe: "recipe/basic/craft_planks.gif",
     error: "",
   });
+
   return (
     <div className="full-height">
       <NavBar changeCategory={setCategory} />

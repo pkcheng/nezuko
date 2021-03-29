@@ -1,19 +1,14 @@
 import React, { useEffect, useState } from "react";
-
+import { getItemTitle } from "../../solution";
 const Recipe = ({ item }) => {
   const [loaded, setLoaded] = useState(false);
-  useEffect(() => {
-    setLoaded(false);
-    setTimeout(() => {
-      setLoaded(true);
-    }, 150);
-  }, [item]);
+
   return (
     <div className="screen-content">
-      <p id="title">{item.name}</p>
+      <p id="title">{getItemTitle(item.name)}</p>
       {loaded ? null : (
-        <div class="spinner-border" role="status">
-          <span class="sr-only">Loading...</span>
+        <div className="spinner-border" role="status">
+          <span className="sr-only">Loading...</span>
         </div>
       )}
       <img

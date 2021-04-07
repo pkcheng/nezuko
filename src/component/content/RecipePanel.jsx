@@ -8,7 +8,7 @@ const RecipePanel = ({ item, auth, handleFavorites, favorites }) => {
     ? "btn btn-danger mt-5"
     : "btn btn-outline-danger mt-5";
   return (
-    <div className="col-3 recipe-panel">
+    <div className="recipe-panel">
       <div className="screen">
         <Recipe item={item} />
         {auth.currentUser && (

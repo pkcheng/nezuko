@@ -7,7 +7,7 @@ const MenuPanel = ({ category, changeItem, favorites }) => {
     currentList = itemList[category];
   }
   return (
-    <div className="col-9 menu-panel">
+    <div className="menu-panel">
       {category !== "favorite"
         ? currentList.map((item) => {
             return (

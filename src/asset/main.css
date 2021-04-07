@@ -59,6 +59,26 @@ html body {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .screen {
+    height: 75%;
+  }
+  .mobile-50 {
+    height: 75%;
+  }
+  .recipe-panel {
+    height: 325px;
+  }
+  .screen-content {
+    margin-top: 10px !important;
+  }
+
+  #recipe-img {
+    height: 135px;
+    width: auto;
+  }
+}
+
 .screen-content {
   margin-top: 100px;
 }

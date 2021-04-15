@@ -59,18 +59,38 @@ html body {
   text-align: center;
 }
 
+.screen button {
+  margin-top: 50px;
+}
+
+#title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 600px) {
+  #title {
+    margin-bottom: 10px;
+  }
   .screen {
-    height: 75%;
+    height: 90%;
   }
   .mobile-50 {
     height: 75%;
   }
   .recipe-panel {
-    height: 325px;
+    height: 310px;
   }
   .screen-content {
-    margin-top: 10px !important;
+    margin-top: 15px !important;
+  }
+
+  .screen button {
+    margin-top: 15px;
   }
 
   #recipe-img {
@@ -90,15 +110,6 @@ html body {
   border-style: solid;
   border-color: #ffffff;
   background-color: #c6c6c6;
-}
-
-#title {
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 32px;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 20px;
 }
 
 #btn-img {
